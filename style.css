@@ -1,0 +1,24 @@
+li {
+    list-style-type: none;
+    display: inline;
+    padding: 2rem;
+ 
+    
+
+}
+#navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+#header-img {
+    width: 6rem;
+    height: 6rem;
+}
+#nav-bar {
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+width: 95%;
+padding-top: 1.5rem;
+}
