@@ -2,9 +2,26 @@ li {
     list-style-type: none;
     display: inline;
     padding: 2rem;
- 
-    
+    color: aquamarine;
+}
+a:visited {
+   color: aquamarine;
+}
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
 
+a:active {
+    text-decoration: underline;
+}
+#header {
+position: fixed;
+width: 100%;
+background-color: black;
+top: 0;
 }
 #navigation {
     display: flex;
@@ -20,5 +37,11 @@ display: flex;
 flex-direction: row;
 justify-content: flex-end;
 width: 95%;
-padding-top: 1.5rem;
+padding-top: 0.5rem;
+font-size: 1.5rem;
+}
+#main {
+    height: 1500px;
+    overflow: scroll;
+    padding-top: 10rem;
 }
