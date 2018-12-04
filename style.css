@@ -12,10 +12,28 @@ padding: 0;
     font-size: 3rem;
     padding-right: 2rem;
 }
-.features-content {
-    width: 50%;
+.wrapper {
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
+background-color:rgba(119, 119, 119, 0.7)
+
+}
+#features {
+    
+}
+#main {
+    background: url("http://vetnutrition.tufts.edu/wp-content/uploads/iStock_50769550_LARGE.jpg") no-repeat center center fixed;
+    }
+#features-content {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+#video-content {
+    display: flex;
+    justify-content: center;
+
 }
 .nav-item {
 display: inline;
