@@ -1,11 +1,32 @@
 li {
-    list-style-type: none;
-    display: inline;
-    padding: 2rem;
-    color: aquamarine;
+  padding-left: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+ul {
+list-style-type: none;
+padding: 0;
+}
+.features-icons {
+    color: rgb(240, 133, 25);
+    font-size: 3rem;
+    padding-right: 2rem;
+}
+.features-content {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav-item {
+display: inline;
+list-style-type: none;
+}
+.nav-link {
+padding: 2rem;
+color: rgb(240, 133, 25);
 }
 a:visited {
-   color: aquamarine;
+   color: rgb(240, 133, 25);
 }
 a:link {
     text-decoration: none;
@@ -29,8 +50,8 @@ top: 0;
     justify-content: flex-end;
 }
 #header-img {
-    width: 6rem;
-    height: 6rem;
+width: 20%;
+height: 20%;
 }
 #nav-bar {
 display: flex;
