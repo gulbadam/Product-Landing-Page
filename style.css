@@ -154,12 +154,16 @@ margin: 0;
     margin-bottom: 4rem;
 }
 .card-img {
-    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   width: 30%;
     height: 30%;
 }
 .card__title {
     font-size: 2rem;
     padding: .5rem;
+    text-align: center;
 }
 
 .card__description {
@@ -179,4 +183,9 @@ margin: 0;
 .card-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    padding: 2rem;
+    grid-gap: 2rem;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
