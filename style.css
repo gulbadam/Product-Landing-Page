@@ -1,11 +1,11 @@
 iframe {
     width: 1000px;
     height: 600px;
-    border: 0px;
+    border: 0;
 }
 li {
-  padding-left: 1.5rem;
-  padding-bottom: 2rem;
+    padding-left: 1.5rem;
+    padding-bottom: 2rem;
 }
 .product-picture {
     width: 20%;
@@ -15,16 +15,15 @@ li {
     flex-direction: row;
 }
 #product-imgs {
-display: flex;
-justify-content: center;
-flex-direction: row;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 }
 ul {
-list-style-type: none;
-padding: 0;
-padding-top: 1rem;
-line-height: 1.7;
-font-size: 1.2rem;
+    list-style-type: none;
+    padding: 1rem 0 0;
+    line-height: 1.7;
+    font-size: 1.2rem;
 }
 ul.fa-ul {
     margin-top: 0;
@@ -39,41 +38,36 @@ ul.fa-ul {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
-background-color:rgba(119, 119, 119, 0.7);
-border-radius: 1rem;
-
 }
 #features {
-background-image: linear-gradient(to right, rgba(255, 0, 0, 0),tomato);
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0),tomato);
 }
 #how-it-works {
-    background-image: linear-gradient(to right, tomato, rgba(255, 0, 0, 0) );
+    background-image: linear-gradient(to right, tomato, rgba(255, 0, 0, 0));
 }
 #other-products {
     background-image: linear-gradient(to right, rgba(255, 0, 0, 0), tomato);
 }
-
 #features-content {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    }
+}
 #video-content {
     display: flex;
     justify-content: center;
-
 }
 .nav-item {
-display: inline;
-list-style-type: none;
+    display: inline;
+    list-style-type: none;
 }
 .nav-link {
-padding: 1rem;
-color: rgb(240, 133, 25);
-font-family: 'Orbitron', sans-serif;
+    padding: 1rem;
+    color: rgb(240, 133, 25);
+    font-family: 'Orbitron', sans-serif;
 }
 a:visited {
-   color: rgb(240, 133, 25);
+    color: rgb(240, 133, 25);
 }
 a:link {
     text-decoration: none;
@@ -81,16 +75,15 @@ a:link {
 a:hover {
     text-decoration: underline;
 }
-
 a:active {
     text-decoration: underline;
 }
 #header {
-position: fixed;
-width: 100%;
-background-color: black;
-top: 0;
-z-index: 1;
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    top: 0;
+    z-index: 1;
 }
 #navigation {
     display: flex;
@@ -98,15 +91,15 @@ z-index: 1;
     justify-content: flex-end;
 }
 #header-img {
-width: 15%;
-height: 15%;
+    width: 15%;
+    height: 15%;
 }
 #nav-bar {
-display: flex;
-flex-direction: row;
-justify-content: flex-end;
-width: 95%;
-font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 95%;
+    font-size: 1.5rem;
 }
 #main {
     height: 1500px;
@@ -116,7 +109,6 @@ font-size: 1.5rem;
     font-size: 1rem;
     margin: 0.5rem;
 }
-
 #footer {
     font-size: 0.8em;
     position: fixed;
@@ -126,28 +118,24 @@ font-size: 1.5rem;
     color: rgb(240, 133, 25);
     text-align: center;
 }
-
 #copyright {
     margin: 0.5rem;
     padding-top: 0.5rem;
 }
 h1 {
     text-align: center;
-  font-family: 'Orbitron',sans-serif;
+    font-family: 'Orbitron',sans-serif;
     color: rgb(240, 133, 25);
     margin: 0;
     padding: 1rem;
     background-color: black;
 }
 h2 {
-    color:rgb(240, 133, 25);
-  font-family: 'Titan One',
-  cursive;
-  font-size: 2rem;
-  text-shadow: -1px 1px 2px #000,
-  1px 1px 2px #000,
-  1px -1px 0 #000,
-  -1px -1px 0 #000;
+    text-align: center;
+    color: rgb(240, 133, 25);
+    font-family: 'Titan One', cursive;
+    font-size: 2rem;
+    text-shadow: -1px 1px 2px #000, 1px 1px 2px #000, 1px -1px 0 #000, -1px -1px 0 #000;
 }
 #get-more-information {
     display: flex;
@@ -155,13 +143,12 @@ h2 {
     align-items: center;
     flex-direction: column;
     background: url("https://www.openbusiness.ru/upload/presentations/suhikh%20kormov.jpg") no-repeat fixed;
-   background-attachment: fixed;
-   background-position: 50% 50%;
-   background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-size: cover;
     height: 30rem;
-padding: 0;
-margin: 0;
- 
+    padding: 0;
+    margin: 0;
 }
 #email {
     width: 15rem;
@@ -175,8 +162,7 @@ margin: 0;
     border-radius: 5px;
     border: #000 solid 1px;
     background-color: chocolate;
-    font-family: 'Fredoka One',
-    cursive;
+    font-family: 'Fredoka One', cursive;
     font-size: 1rem;
 }
 form {
@@ -185,7 +171,7 @@ form {
     flex-direction: column;
 }
 .card {
-    box-shadow: 0px 1px 5px #555;
+    box-shadow: 0 1px 5px #555;
     background-color: white;
     margin-bottom: 4rem;
 }
@@ -193,7 +179,7 @@ form {
     display: block;
     margin-left: auto;
     margin-right: auto;
-   width: 50%;
+    width: 50%;
     height: 50%;
 }
 .card__title {
@@ -203,14 +189,12 @@ form {
     text-align: center;
     height: 6rem;
 }
-
 .card__description {
     padding: 1rem;
     height: 25rem;
     line-height: 1.6em;
     overflow: scroll;
 }
-
 .button {
     display: block;
     background-color: tomato;
@@ -218,7 +202,7 @@ form {
     color: white;
     text-decoration: none;
     text-align: center;
-    transition: .3s ease-out;
+    transition: 0.3s ease-out;
 }
 a.button {
     color: #000;
@@ -239,7 +223,6 @@ a.button {
     .card-container {
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     }
-
     ul {
         font-size: 0.8rem;
     }
@@ -258,7 +241,7 @@ a.button {
 }
 @media screen and (min-width: 100px) and (max-width: 320px) {
     .card-container {
-grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     }
     .card__description {
         font-size: 0.5rem;
@@ -271,17 +254,17 @@ grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     }
     ul {
         font-size: 0.8rem;
-}
-.wrapper {
-    width: 100%;
-}
-.features-icons {
-    font-size: 1rem;
-}
-#header-img {
-    width: 50%;
-}
-h2 {
-    font-size: 1rem;
-}
+    }
+    .wrapper {
+        width: 100%;
+    }
+    .features-icons {
+        font-size: 1rem;
+    }
+    #header-img {
+        width: 50%;
+    }
+    h2 {
+        font-size: 1rem;
+    }
 }
