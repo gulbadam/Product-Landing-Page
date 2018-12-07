@@ -186,6 +186,7 @@ margin: 0;
     padding: 1rem;
     height: 25rem;
     line-height: 1.6em;
+    overflow: scroll;
 }
 
 .button {
@@ -213,6 +214,9 @@ a.button {
     iframe {
         width: 50%;
     }
+    .card-container {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
 
     ul {
         font-size: 0.8rem;
@@ -223,6 +227,39 @@ a.button {
     a.nav-link {
         font-size: 0.5rem;
     }
+    .features-icons {
+        font-size: 1rem;
+    }
+    #header-img {
+        width: 50%;
+    }
 }
-
-
+@media screen and (min-width: 100px) and (max-width: 320px) {
+    .card-container {
+grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+    .card__description {
+        font-size: 0.5rem;
+    }
+    .card__title {
+        font-size: 0.6rem;
+    }
+    a.nav-link {
+        font-size: 0.3rem;
+    }
+    ul {
+        font-size: 0.8rem;
+}
+.wrapper {
+    width: 100%;
+}
+.features-icons {
+    font-size: 1rem;
+}
+#header-img {
+    width: 50%;
+}
+h2 {
+    font-size: 1rem;
+}
+}
